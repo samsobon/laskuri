@@ -14,7 +14,7 @@ public class Laskuri{
      lisaa(). Arvoa voi tarkastella ja sen voi nollata.                 */
 	private int tapahtumia;
         public Laskuri(int alkuarvo){ 
-        // konstruktori, kuormitettu. Alkuarvon tulee olla >= 0.
+        // konstruktori, kuormitettu. Alkuarvon tulee olla >= 0.d
 		if(alkuarvo < 0)
 			return;
 		this.tapahtumia = alkuarvo;
@@ -33,7 +33,7 @@ public class Laskuri{
     		this.tapahtumia = 0;
   	}
 	public String toString(){
-		return "Laskurin lukema on " + this.tapahtumia;
+		return "Laskurin lukemaksi tuli: " + this.tapahtumia;
 	}
 
 }
